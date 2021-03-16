@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8304c17-3ea3-4286-83a7-752408df297d" name="Default Changelist" comment="read">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PredictionArchivedBadData/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PredictionArchivedBadData/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prediction_FileFromDB/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_FileFromDB/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prediction_Logs/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Logs/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prediction_Output_File/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Output_File/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prediction_Raw_Files_Validated/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Raw_Files_Validated/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrainingArchiveBadData/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TrainingArchiveBadData/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Database/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Database/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_FileFromDB/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_FileFromDB/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Logs/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Logs/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Raw_files_validated/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Raw_files_validated/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_monitoringdashboard.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615870109487</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="read">
+      <created>1615871717877</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615871717877</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,10 +304,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615863899514" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1615870115595">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1615871725924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615870115595" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615871725924" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615865429068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
