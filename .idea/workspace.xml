@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8304c17-3ea3-4286-83a7-752408df297d" name="Default Changelist" comment="read">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTransform_Training/DataTransformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTransform_Training/DataTransformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTransformation_Prediction/DataTransformationPrediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTransformation_Prediction/DataTransformationPrediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTypeValidation_Insertion_Prediction/DataTypeValidationPrediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypeValidation_Insertion_Prediction/DataTypeValidationPrediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTypeValidation_Insertion_Training/DataTypeValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypeValidation_Insertion_Training/DataTypeValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLD/Problem Statement.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLD/wafer_fault_detection.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLD/~$fer_fault_detection.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLD/~$oblem Statement.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prediction_Raw_Data_Validation/predictionDataValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction_Raw_Data_Validation/predictionDataValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Training_Raw_data_validation/rawValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Raw_data_validation/rawValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_model_finder/tuner.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_model_finder/tuner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_ingestion/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_ingestion/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_ingestion/data_loader_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_ingestion/data_loader_prediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_preprocessing/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_operations/file_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_operations/file_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainingModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainingModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_monitoringdashboard.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_monitoringdashboard.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -216,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615865460057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="read">
+      <created>1615866975017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615866975017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,30 +241,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="247" y="59" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1615864825437" />
-    <state width="1345" height="313" key="GridCell.Tab.0.bottom" timestamp="1615864422337">
+    <state width="1345" height="270" key="GridCell.Tab.0.bottom" timestamp="1615867501728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="313" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615864422337" />
-    <state width="1345" height="313" key="GridCell.Tab.0.center" timestamp="1615864422336">
+    <state width="1345" height="270" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615867501728" />
+    <state width="1345" height="270" key="GridCell.Tab.0.center" timestamp="1615867501728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="313" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615864422336" />
-    <state width="1345" height="313" key="GridCell.Tab.0.left" timestamp="1615864422336">
+    <state width="1345" height="270" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615867501728" />
+    <state width="1345" height="270" key="GridCell.Tab.0.left" timestamp="1615867501728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="313" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615864422336" />
-    <state width="1345" height="313" key="GridCell.Tab.0.right" timestamp="1615864422337">
+    <state width="1345" height="270" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615867501728" />
+    <state width="1345" height="270" key="GridCell.Tab.0.right" timestamp="1615867501728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="313" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615864422337" />
+    <state width="1345" height="270" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615867501728" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1615863899514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615863899514" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1615865477296">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1615866978942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615865477296" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615866978942" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615865429068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
