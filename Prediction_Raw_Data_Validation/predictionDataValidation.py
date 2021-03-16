@@ -15,11 +15,6 @@ from application_logging.logger import App_Logger
 class Prediction_Data_validation:
     """
                This class shall be used for handling all the validation done on the Raw Prediction Data!!.
-
-               Written By: iNeuron Intelligence
-               Version: 1.0
-               Revisions: None
-
                """
 
     def __init__(self,path):
@@ -34,11 +29,6 @@ class Prediction_Data_validation:
                                 Description: This method extracts all the relevant information from the pre-defined "Schema" file.
                                 Output: LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, Number of Columns
                                 On Failure: Raise ValueError,KeyError,Exception
-
-                                 Written By: iNeuron Intelligence
-                                Version: 1.0
-                                Revisions: None
-
                                         """
         try:
             with open(self.schema_path, 'r') as f:
@@ -87,11 +77,6 @@ class Prediction_Data_validation:
                                                   This Regex is used to validate the filename of the prediction data.
                                       Output: Regex pattern
                                       On Failure: None
-
-                                       Written By: iNeuron Intelligence
-                                      Version: 1.0
-                                      Revisions: None
-
                                               """
         regex = "['wafer']+['\_'']+[\d_]+[\d]+\.csv"
         return regex
@@ -105,11 +90,6 @@ class Prediction_Data_validation:
 
                                         Output: None
                                         On Failure: OSError
-
-                                         Written By: iNeuron Intelligence
-                                        Version: 1.0
-                                        Revisions: None
-
                                                 """
         try:
             path = os.path.join("Prediction_Raw_Files_Validated/", "Good_Raw/")
@@ -133,11 +113,6 @@ class Prediction_Data_validation:
                                                           loaded in the DB,deleting the directory ensures space optimization.
                                             Output: None
                                             On Failure: OSError
-
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
-
                                                     """
         try:
             path = 'Prediction_Raw_Files_Validated/'
@@ -161,11 +136,6 @@ class Prediction_Data_validation:
                                             Description: This method deletes the directory made to store the bad Data.
                                             Output: None
                                             On Failure: OSError
-
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
-
                                                     """
 
         try:
@@ -191,11 +161,6 @@ class Prediction_Data_validation:
                                                           files to send them back to the client for invalid data issue.
                                             Output: None
                                             On Failure: OSError
-
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
-
                                                     """
         now = datetime.now()
         date = now.date()
@@ -236,11 +201,6 @@ class Prediction_Data_validation:
                          to Bad Raw Data folder else in Good raw data.
             Output: None
             On Failure: Exception
-
-             Written By: iNeuron Intelligence
-            Version: 1.0
-            Revisions: None
-
         """
         # delete the directories for good and bad data in case last run was unsuccessful and folders were not deleted.
         self.deleteExistingBadDataTrainingFolder()
@@ -289,11 +249,6 @@ class Prediction_Data_validation:
                                 The csv file is missing the first column name, this function changes the missing name to "Wafer".
                     Output: None
                     On Failure: Exception
-
-                     Written By: iNeuron Intelligence
-                    Version: 1.0
-                    Revisions: None
-
              """
         try:
             f = open("Prediction_Logs/columnValidationLog.txt", 'a+')
@@ -334,11 +289,6 @@ class Prediction_Data_validation:
                                                SUch files are moved to bad raw data.
                                   Output: None
                                   On Failure: Exception
-
-                                   Written By: iNeuron Intelligence
-                                  Version: 1.0
-                                  Revisions: None
-
                               """
         try:
             f = open("Prediction_Logs/missingValuesInColumn.txt", 'a+')
